@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "nexo": "https://raw.githubusercontent.com/nexojs/nexo/master/mod.ts",
+    "preact": "https://raw.githubusercontent.com/nexojs/nexo/master/preact.js"
+  }
+}
