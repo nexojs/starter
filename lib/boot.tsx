@@ -12,5 +12,6 @@ export default function (ctx: Ctx) {
 
   app.use(function (ctx: any) {
     ctx.response.body = "404";
+    ctx.response.status = 404;
   });
 }
