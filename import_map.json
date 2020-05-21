@@ -1,6 +1,7 @@
 {
   "imports": {
-    "nexo": "https://raw.githubusercontent.com/nexojs/nexo/master/mod.ts",
-    "preact": "https://raw.githubusercontent.com/nexojs/nexo/master/preact.js"
+    "nexo": "https://raw.githubusercontent.com/nexojs/nexo/v0.1.0/mod.ts",
+    "preact": "https://raw.githubusercontent.com/nexojs/nexo/v0.1.0/preact.js",
+    "otion": "https://raw.githubusercontent.com/nexojs/nexo/v0.1.0/otion.js"
   }
 }
