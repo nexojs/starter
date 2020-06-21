@@ -1,6 +1,4 @@
-// @deno-types=https://deno.land/std/react/react.d.ts
-import { h, render } from "preact";
-import { css, setup, hydrate } from "otion";
+import { h, render, css, setup, hydrate } from "../../cliDeps.ts";
 
 setup({});
 hydrate();
@@ -25,7 +23,7 @@ const ButtonClass = css({
   },
 });
 
-const Button = function ({ children, ...props }) {
+const Button = function ({ children, ...props }: any) {
   return <a target="_blank" class={ButtonClass} {...props}>{children}</a>;
 };
 

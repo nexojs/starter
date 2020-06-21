@@ -1,5 +1,5 @@
 import home from "./routes/home.tsx";
-import { Ctx } from "nexo";
+import { Ctx } from "../deps.ts";
 
 export default function (ctx: Ctx) {
   const { app, router, files } = ctx;
@@ -8,7 +8,7 @@ export default function (ctx: Ctx) {
 
   app.use(router.routes());
   app.use(router.allowedMethods());
-  app.use(files);
+  app.use(files as any);
 
   app.use(function (ctx: any) {
     ctx.response.body = "404";

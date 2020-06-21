@@ -1,5 +1,4 @@
-import { h, Fragment } from "preact";
-import { css } from "otion";
+import { h, Fragment, css } from "../../cliDeps.ts";
 
 export const Welcome = function ({ title, name, visitorCount }) {
   return <Fragment>

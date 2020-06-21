@@ -1,7 +1,0 @@
-{
-  "imports": {
-    "nexo": "https://raw.githubusercontent.com/nexojs/nexo/v0.1.1/mod.ts",
-    "preact": "https://raw.githubusercontent.com/nexojs/nexo/v0.1.1/preact.js",
-    "otion": "https://raw.githubusercontent.com/nexojs/nexo/v0.1.1/otion.js"
-  }
-}
